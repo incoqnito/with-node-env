@@ -1,5 +1,5 @@
 # os-script
-Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:windows` or `npm run foo:unix` for tasks whose commands differ across Operating System platforms
+Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` for tasks whose commands differ across Operating System platforms
 
 ## Installation
     $ npm install os-script --save-dev
