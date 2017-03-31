@@ -1,6 +1,6 @@
 {
   "name": "os-script",
-  "version": "0.0.1-tomato",
+  "version": "0.0.1-pizza",
   "description": "Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` for tasks whose commands differ across Operating System platforms",
   "main": "index.js",
   "scripts": {
