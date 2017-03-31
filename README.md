@@ -12,3 +12,5 @@ Add scripts to your package.json like so:
       "foo:win32": "copy src\file1 dist\file1",
       "foo:darwin": "cp src/file1 dist/file1"
     }
+
+And invoke via `npm run foo`
