@@ -1,0 +1,11 @@
+{
+  "name": "os-script",
+  "version": "0.0.1-potato",
+  "description": "Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:windows` or `npm run foo:unix` for tasks whose commands differ across Operating System platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
