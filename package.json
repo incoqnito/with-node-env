@@ -1,7 +1,7 @@
 {
   "name": "os-script",
-  "version": "0.0.1-experimental-donut",
-  "description": "Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` for tasks whose commands differ across Operating System platforms",
+  "version": "0.0.1-experimental-takoyaki",
+  "description": "Operating system-specific npm scripts!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,11 @@
   },
   "keywords": [
     "os specific scripts",
+    "os specific npm scripts",
+    "os-specific scripts",
+    "os-specific npm scripts",
     "package",
+    "package.json",
     "scripts",
     "platform",
     "windows",
@@ -25,6 +29,7 @@
     "tasks",
     "os",
     "specific",
+    "os-specific",
     "scripts"
   ],
   "bugs": {

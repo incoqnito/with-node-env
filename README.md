@@ -1,4 +1,6 @@
 # os-script
+Operating system-specific npm scripts!
+
 Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` for tasks whose commands differ across Operating System platforms
 
 ## Installation
@@ -15,7 +17,7 @@ Add scripts to your package.json like so:
 
 And invoke via `npm run foo`
 
-## Todo
+## v1.0.0 Todo
 * Tests
 * Pass through commands
 * :default script suffix
