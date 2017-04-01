@@ -14,3 +14,8 @@ Add scripts to your package.json like so:
     }
 
 And invoke via `npm run foo`
+
+## Todo
+* Tests
+* Pass through commands
+* :default script suffix

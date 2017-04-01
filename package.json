@@ -1,11 +1,34 @@
 {
   "name": "os-script",
-  "version": "0.0.1-pizza",
+  "version": "0.0.1-experimental-donut",
   "description": "Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` for tasks whose commands differ across Operating System platforms",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "William Bishop",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-mcmillian/os-script.git"
+  },
+  "keywords": [
+    "os specific scripts",
+    "package",
+    "scripts",
+    "platform",
+    "windows",
+    "unix",
+    "win32",
+    "darwin",
+    "npm",
+    "tasks",
+    "os",
+    "specific",
+    "scripts"
+  ],
+  "bugs": {
+    "url": "https://github.com/william-mcmillian/os-script/issues"
+  },
+  "homepage": "https://github.com/william-mcmillian/os-script#readme"
 }
