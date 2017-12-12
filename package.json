@@ -1,6 +1,6 @@
 {
   "name": "with-node-env",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simplify setting NODE_ENV on any OS",
   "main": "index.js",
   "scripts": {

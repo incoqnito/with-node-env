@@ -10,7 +10,8 @@ const child = spawn(command, args, {
     ...process.env,
     'NODE_ENV': node_env
   },
-  argv0: process.argv[0]
+  argv0: process.argv[0],
+  shell: true
 })
 
 child.stdout.on('data', (buffer) => console.log(buffer.toString('utf8')))
