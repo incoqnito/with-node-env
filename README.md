@@ -1,13 +1,13 @@
 # os-script
 Operating system-specific npm scripts!
 
-Simple branching over scripts in your module's package.json, converting to `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` for tasks whose commands differ across Operating System platforms
+Simple branching over scripts in your module's package.json, converting `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` depending on the current OS type
 
 ## Installation
-    $ npm install os-script --save-dev
+    $ npm i --save-dev https://github.com/incoqnitogmbh/os-script
 
 ## Usage
-Add scripts to your package.json like so:
+Add scripts to your package.json like this:
 
     "scripts": {
       "foo": "os-script foo",
@@ -19,5 +19,3 @@ And invoke via `npm run foo`
 
 ## v1.0.0 Todo
 * Tests
-* Pass through commands
-* :default script suffix
