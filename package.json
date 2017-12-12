@@ -1,16 +1,20 @@
 {
   "name": "os-script",
-  "version": "0.0.1-experimental-takoyaki",
+  "version": "0.0.2",
   "description": "Operating system-specific npm scripts!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "William Bishop",
+  "contributors": [
+    "William Bishop",
+    "Marces Engel"
+  ],
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/william-mcmillian/os-script.git"
+    "url": "git+https://github.com/incoqnitogmbh/os-script.git"
   },
   "keywords": [
     "os specific scripts",
@@ -33,7 +37,7 @@
     "scripts"
   ],
   "bugs": {
-    "url": "https://github.com/william-mcmillian/os-script/issues"
+    "url": "https://github.com/incoqnitogmbh/os-script"
   },
-  "homepage": "https://github.com/william-mcmillian/os-script#readme"
+  "homepage": "https://github.com/incoqnitogmbh/os-script#readme"
 }
