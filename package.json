@@ -1,21 +1,17 @@
 {
-  "name": "os-script",
-  "version": "0.0.2",
-  "description": "Operating system-specific npm scripts!",
+  "name": "node-env",
+  "version": "0.0.1",
+  "description": "Simplify setting NODE_ENV on any OS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./index.js",
-  "author": "William Bishop",
-  "contributors": [
-    "William Bishop",
-    "Marces Engel"
-  ],
-  "license": "ISC",
+  "author": "Marces Engel",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/incoqnitogmbh/os-script.git"
+    "url": "git+https://github.com/incoqnito/node-env.git"
   },
   "keywords": [
     "os specific scripts",
@@ -38,7 +34,7 @@
     "scripts"
   ],
   "bugs": {
-    "url": "https://github.com/incoqnitogmbh/os-script"
+    "url": "https://github.com/incoqnito/node-env"
   },
-  "homepage": "https://github.com/incoqnitogmbh/os-script#readme"
+  "homepage": "https://github.com/incoqnito/node-env#readme"
 }

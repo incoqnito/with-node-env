@@ -1,21 +1,26 @@
-# os-script
-Operating system-specific npm scripts!
+# node-env
 
-Simple branching over scripts in your module's package.json, converting `npm run foo` to `npm run foo:win32` or `npm run foo:darwin` depending on the current OS type
+## Motivation
+
+Switching between development/production mode often is done by setting the
+NODE_ENV environment variable to the respective values.
+
+Sadly this can't be done in an unified way around different OSes
+(e.g. `NODE_ENV={value}` on UNIX like systems and `SET NODE_ENV={value}` on Windows).
+But don't worry, node-env is here for you!
 
 ## Installation
-    $ npm i --save-dev https://github.com/incoqnitogmbh/os-script
+
+`npm install --save node-env`
 
 ## Usage
-Add scripts to your package.json like this:
 
-    "scripts": {
-      "foo": "os-script foo",
-      "foo:win32": "copy src\file1 dist\file1",
-      "foo:darwin": "cp src/file1 dist/file1"
-    }
+```json
+"scripts": {
+  "development": "node-env development forever -w index.js",
+  "production": "node-env production forever index.js"
+}
+```
 
-And invoke via `npm run foo`
-
-## v1.0.0 Todo
-* Tests
+This code will set NODE_ENV (accessible via `process.env.NODE_ENV`) to `development`
+when running `npm run development` and vice versa for `npm run production`
