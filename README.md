@@ -11,14 +11,14 @@ But don't worry, node-env is here for you!
 
 ## Installation
 
-`npm install --save node-env`
+`npm install --save with-node-env`
 
 ## Usage
 
 ```json
 "scripts": {
-  "development": "node-env development forever -w index.js",
-  "production": "node-env production forever index.js"
+  "development": "with-node-env development forever -w index.js",
+  "production": "with-node-env production forever index.js"
 }
 ```
 

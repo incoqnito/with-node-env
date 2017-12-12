@@ -1,5 +1,5 @@
 {
-  "name": "node-env",
+  "name": "with-node-env",
   "version": "0.0.1",
   "description": "Simplify setting NODE_ENV on any OS",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/incoqnito/node-env.git"
+    "url": "git+https://github.com/incoqnito/with-node-env.git"
   },
   "keywords": [
     "os specific scripts",
@@ -34,7 +34,7 @@
     "scripts"
   ],
   "bugs": {
-    "url": "https://github.com/incoqnito/node-env"
+    "url": "https://github.com/incoqnito/with-node-env"
   },
-  "homepage": "https://github.com/incoqnito/node-env#readme"
+  "homepage": "https://github.com/incoqnito/with-node-env#readme"
 }
