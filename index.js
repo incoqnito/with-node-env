@@ -1,8 +1,9 @@
-let platform = require('os').platform();
-let script = process.argv[process.argv.length - 1];
-let spawn = require('child_process').spawn;
-let child = spawn('npm', ['run', `${script}:${platform}`]);
 #!/usr/bin/env node
 
-child.stdout.on('data', data => console.log(`${data}`));
-child.stderr.on('data', data => console.log(`${data}`));
+const platform = require('os').platform()
+const script = process.argv[process.argv.length - 1]
+const spawn = require('child_process').spawn
+const child = spawn('npm', ['run', `${script}:${platform}`])
+
+child.stdout.on('data', console.log)
+child.stderr.on('data', console.error)
